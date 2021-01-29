@@ -1,0 +1,289 @@
+@font-face{
+    font-family: 'Roman';
+    src: url(../fonts/AACHENB.TTF);
+}
+/* header */
+.header{
+    width: 1440px;
+    min-height: 850px;
+    background-color: #28282d;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    font: 18px 'Roman';
+}
+li{
+    display: inline-block;
+    margin-left: 50px;
+}
+.header-menu{
+    margin: auto;
+    display: flex;
+    padding-top: 72px;
+    margin-bottom: 152px;
+}
+.header-menu div{
+    margin-left: 120px;
+}
+.header-menu img{
+    width: 100px;
+    height: 50px;
+}
+.menu-link:hover{
+    color: #c18935;
+    transition: 0.5s;
+}
+.header-info{
+    display: flex;
+}
+.header-info div{
+    margin-left: 40px;
+}
+.header-info h2{
+    font: 42px 'Roman';
+    color: #e58f00;
+    padding-top: 130px;
+    margin-bottom: 20px;
+}
+.header-info p{
+    color: white;
+    margin-bottom: 20px;
+}
+.contact-us{
+    width: 202px;
+    height: 70px;
+    background-color: #e58f00;
+    font: 24px 'Roman';
+    border-style: none;
+    border-radius: 8px;
+}
+
+
+/* About us */
+.about-us{
+    width: 1440px;
+    min-height: 2000px;
+    background-color: #1d1d23;
+}
+.about-us-info{
+    display: flex;
+    margin-left:120px;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+.about-us-info h2{
+    font: 24px 'Roman';
+    color: white;
+    margin-bottom: 15px;
+    padding-top: 200px;
+}
+.about-us-info div{
+    margin-left: 40px;
+}
+.about-us-info p{
+    font: 18px 'Roman';
+    color: white;
+}
+.food-imgs{
+    position: relative;
+    margin-left: 100px;
+}
+.food-imgs h2{
+    font: 32px 'Roman';
+    margin-bottom: 30px;
+    padding-top: 150px;
+    color: white;
+}
+.food-imgs p{
+    color: white;
+    font: 18px 'Roman';
+}
+.right-img{
+    position: absolute;
+    right: 200px;
+    top: 0px;
+    width: 400px;
+    height: 400px;
+}
+.right-bottom-img{
+    position: absolute;
+    left: 420px;
+    top: 400px;
+    width: 500px;
+    height: 500px;
+}
+.left-img{
+    position: absolute;
+    top: 600px;
+    width: 300px;
+    height: 300px;
+}
+
+
+/* Food gallery */
+.about-us-title{
+    text-align: center;
+    color: white;
+    font: 28px 'Roman';
+    margin-bottom:100px;
+}
+.food-gallery{
+    width: 1440px;
+    min-height: 1200px;
+    background-color: #1d1d23;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.gallery-div{
+    display: flex;
+    margin-bottom:15px;
+}
+.gallery-div img{
+    margin-left: 12px;
+    width: 350px;
+}
+/* Enjoy */
+.enjoy{
+    width: 1440px;
+    min-height: 900px;
+    background-image: url(../img/our-food.png);
+    background-repeat: no-repeat;
+}
+.enjoy-text{
+    margin-left: 350px;
+    border: 7px solid #e58f00;
+    width: 600px;
+    height: 350px;
+    padding: 36px;
+}
+.enjoy-block{
+    padding-top: 200px;
+}
+.enjoy-text h2{
+    text-align: center;
+    color: white;
+    font:28px "Roman";
+    margin-bottom: 50px;
+}
+.enjoy-text p{
+    text-align: center;
+    margin-left: 120px;
+    color: white;
+    font:18px 'Roman';
+    width: 400px;
+    height: 200px;
+}
+
+/* menu */
+.menu-section{
+    width: 1440px;
+    min-height: 900px;
+    background-color: #1d1d23;
+}
+.menu-block{
+    display:flex;
+    margin-left: 70px;
+}
+.menu-section-title{
+    text-align: center;
+    color: white;
+    font: 28px 'Roman';
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.menu-block div{
+    width: 420px;
+    min-height: 600px;
+    margin-left: 30px;
+}
+.menu-block img{
+    width: 407px;
+    height: 360px;
+    margin-bottom: 20px;
+}
+.menu-block h2{
+    color:#e58f00;
+    font: 28px 'Roman';
+    margin-bottom: 15px;
+}
+.Italian-text{
+    color: white;
+    font: 18px "Roman";
+    margin-bottom: 15px;
+}
+.price{
+    color:#e58f00;
+    font: 18px 'Roman';
+}
+
+/* Meal */
+.meal{
+    width: 1440px;
+    height: 500px;
+    background-color: #e58f00;
+}
+.meal-block{
+    display: flex;
+    position: relative;
+}
+.meal-img{
+    position: absolute;
+    top: -80px;
+}
+.meal-text{
+    top: 140px;
+    left: 700px;
+    position: absolute;
+}
+.meal-text h2{
+    color: white;
+    font:28px 'Roman';
+    margin-bottom: 25px;
+}
+.meal-text p{
+    color: white;
+    font: 18px "Roman";
+    width: 300px;
+}
+
+/* footer */
+.footer{
+    width: 1440px;
+    min-height: 430px;
+    background-color: #35353b;
+}
+.footer-logo{
+    padding-top: 96px; 
+    text-align: center;
+    margin-bottom: 70px;
+}
+.footer-menu{
+    display: flex;
+    margin-bottom: 40px;
+}
+.footer-menu li{
+    margin-left: 42px;
+}
+.footer-menu a{
+    color: #e7e6e6;
+    font: 22px "Roman";
+    text-decoration: none;
+}
+.footer-menu-block{
+    margin-left: 300px;
+}
+.footer-menu a:hover{
+    color: #e58f00;
+    transition: 0.5s;
+}
+.social-media{
+    display: flex;
+    margin-left: 500px;
+}
+.social-media img{
+    margin-left: 24px;
+}
